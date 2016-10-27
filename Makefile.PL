@@ -37,8 +37,7 @@ my %WriteMakefileArgs = (
   "TEST_REQUIRES" => {
     "Net::DNS::RR" => 0,
     "Net::DNS::Resolver::Programmable" => 0,
-    "Test::More" => 0,
-    "blib" => 0
+    "Test::More" => 0
   },
   "VERSION" => "2.9.0",
   "test" => {
@@ -59,7 +58,6 @@ my %FallbackPrereqs = (
   "Test::More" => 0,
   "URI::Escape" => 0,
   "base" => 0,
-  "blib" => 0,
   "constant" => 0,
   "overload" => 0,
   "strict" => 0,

@@ -1,6 +1,5 @@
 use strict;
 use warnings;
-use blib;
 
 use Error ':try';
 
